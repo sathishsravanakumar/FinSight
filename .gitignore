@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and local data
+backend/.env
+backend/*.db
+
+# Node / build
+node_modules/
+frontend/dist/
+
+# Logs and local tooling
+*.log
+.claude/
